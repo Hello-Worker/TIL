@@ -27,3 +27,47 @@ T = int(input()) #input은 속도가 느려 여러개 입력시 sys를 import한
 for i in range(T):
     a, b = map(int, sys.stdin.readline().split())
     print(a+b)
+    
+# 3-5) N 찍기
+N = int(input())
+for i in range(1,N+1):
+    print(i)
+    
+# 3-6) 기찍 N
+N = int(input())
+for i in range(N,0,-1): #N부터 0까지 -1증감.
+    print(i)
+    
+# 3-7) A+B -7
+import sys
+T = int(input())
+for i in range(1, T+1):
+    a,b= map(int, sys.stdin.readline().split())
+    print("Case #%d: %d" % (i, a+b))
+   
+# 3-8) A+B -8
+import sys
+T = int(input())
+for i in range(1, T+1):
+    a,b = map(int, sys.stdin.readline().split())
+    print("Case #%d: %d + %d = %d" % (i,a,b,a+b))
+    
+# 3-9) 별 찍기-1
+N = int(input())
+for i in range(1,N+1):
+    print("*"*i)
+    
+# 3-10) 별 찍기-2
+N = int(input())
+for i in range(N):
+    i += 1
+    print(" "*(N-i) +  "*" * i)
+    
+# 3-11) x보다 작은 수
+import sys
+N, X = map(int,input().split())
+A = list(map(int, sys.stdin.readline().split())) #list로 각 숫자에 인덱스 부여
+for i in A:
+    if i < X:
+        print(i, end=" ") # end=" " 공백으로 띄울 것
+    
