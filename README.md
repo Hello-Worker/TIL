@@ -1,2 +1,2 @@
-# Python-Study
-# 파이썬 공부 기록
+### Python-Study
+### 파이썬 공부 기록
