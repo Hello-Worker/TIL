@@ -8,8 +8,8 @@ public class variable {
 		System.out.println(year);
 		System.out.println(age);
 		
-		year = age + 2000; // º¯¼ö ageÀÇ °ª¿¡ 2000À» ´õÇØ¼­ º¯¼ö year¿¡ ÀúÀå
-		age = age +1; //º¯¼ö age¿¡ ÀúÀåµÈ °ªÀ» 1 Áõ°¡½ÃÅ²´Ù.
+		year = age + 2000; // ë³€ìˆ˜ ageì˜ ê°’ì— 2000ì„ ë”í•´ì„œ ë³€ìˆ˜ yearì— ì €ì¥
+		age = age +1; //ë³€ìˆ˜ ageì— ì €ì¥ëœ ê°’ì„ 1 ì¦ê°€ì‹œí‚¨ë‹¤.
 		
 		System.out.println(year);
 		System.out.println(age);
