@@ -7,8 +7,8 @@ public class FloatEx1 {
 		double d = 9.12345678901234567890d;
 		
 		System.out.printf("123456789012345678901234%n");
-		System.out.printf("f	: %f%n", f); // ¼Ò¼öÁ¡ ÀÌÇÏ 6Â°ÀÚ¸®±îÁö Ãâ·Â
-		System.out.printf("f	: %24.20f%n", f); //ÀüÃ¼ 24ÀÚ¸® Áß 20ÀÚ¸®´Â ¼Ò¼öÁ¡ÀÌÇÏÀÇ ¼ö¸¦ Ãâ·Â
+		System.out.printf("f	: %f%n", f); // ì†Œìˆ˜ì  ì´í•˜ 6ì§¸ìë¦¬ê¹Œì§€ ì¶œë ¥
+		System.out.printf("f	: %24.20f%n", f); //ì „ì²´ 24ìë¦¬ ì¤‘ 20ìë¦¬ëŠ” ì†Œìˆ˜ì ì´í•˜ì˜ ìˆ˜ë¥¼ ì¶œë ¥
 		System.out.printf("f2	: %24.20f%n", f2);
 		System.out.printf("d	: %24.20f%n", d);
 
