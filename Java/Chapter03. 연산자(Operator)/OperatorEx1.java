@@ -3,10 +3,10 @@ public class OperatorEx1 {
 
 	public static void main(String[] args) {
 		int i=5;
-		i++; 		// i=i+1; °ú °°Àº ÀÇ¹ÌÀÌ´Ù. ++i;·Î ¹Ù²ã ½áµµ °á°ú´Â °°´Ù.
+		i++; 		// i=i+1; ê³¼ ê°™ì€ ì˜ë¯¸ì´ë‹¤. ++i;ë¡œ ë°”ê¿” ì¨ë„ ê²°ê³¼ëŠ” ê°™ë‹¤.
 		System.out.println(i);
 		
-		i=5; // °á°ú ºñ±³¸¦ À§ÇØi¸¦ 5·Î º¯°æ
+		i=5; // ê²°ê³¼ ë¹„êµë¥¼ ìœ„í•´ië¥¼ 5ë¡œ ë³€ê²½
 		++i;
 		System.out.println(i);
 	}
