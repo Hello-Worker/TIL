@@ -3,7 +3,7 @@ public class FlowEx1 {
 
 	public static void main(String[] args) {
 		int x = 0;
-		System.out.printf("x=%d ÀÏ ¶§, ÂüÀÎ °ÍÀº %n", x);
+		System.out.printf("x=%d Ã€Ã Â¶Â§, Ã‚Ã¼Ã€Ã Â°ÃÃ€Âº %n", x);
 		if(x==0) System.out.println("x==0");
 		if(x!=0) System.out.println("x!=0");
 
