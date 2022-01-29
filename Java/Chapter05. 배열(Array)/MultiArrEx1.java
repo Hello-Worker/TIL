@@ -6,26 +6,26 @@ public class MultiArrEx1 {
 				{1, 2, 3},
 				{4, 5, 6}
 		};
-		
+		 
 		int[][] m2 = {
 				{1, 2},
 				{3, 4},
 				{5, 6}
 		};
 		
-		final int ROW = m1.length; //m1ÀÇ Çà ±æÀÌ
-		final int COL = m2[0].length; // m2ÀÇ ¿­ ±æÀÌ
-		final int M2_ROW = m2.length; // m2ÀÇ Çà ±æÀÌ
+		final int ROW = m1.length; //m1ì˜ í–‰ ê¸¸ì´
+		final int COL = m2[0].length; // m2ì˜ ì—´ ê¸¸ì´
+		final int M2_ROW = m2.length; // m2ì˜ í–‰ ê¸¸ì´
 		
 		int[][] m3 = new int[ROW][COL];
 		
-		// Çà·Ä°ö m1 x m2ÀÇ °á°ú¸¦ m3¿¡ ÀúÀå
+		// í–‰ë ¬ê³± m1 x m2ì˜ ê²°ê³¼ë¥¼ m3ì— ì €ì¥
 		for(int i=0; i<ROW; i++)
 			for(int j=0; j<COL; j++)
 				for(int k=0; k<M2_ROW; k++)
 					m3[i][j] += m1[i][k] * m2[k][j];
 		
-		// Çà·Ä m3¸¦ Ãâ·Â
+		// í–‰ë ¬ m3ë¥¼ ì¶œë ¥
 		for(int i=0; i<ROW; i++) {
 			for(int j=0; j<COL; j++) {
 				System.out.printf("%3d ", m3[i][j]);
