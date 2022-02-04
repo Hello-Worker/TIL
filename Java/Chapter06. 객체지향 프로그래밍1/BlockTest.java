@@ -1,15 +1,15 @@
 
 public class BlockTest {
 	static { 
-		System.out.println("static { }"); // Å¬·¡½º ÃÊ±âÈ­ ºí·°
+		System.out.println("static { }"); // í´ë˜ìŠ¤ ì´ˆê¸°í™” ë¸”ëŸ­
 	}
 	
 	{
-		System.out.println("{ }"); // ÀÎ½ºÅÏ½º ÃÊ±âÈ­ ºí·°
+		System.out.println("{ }"); // ì¸ìŠ¤í„´ìŠ¤ ì´ˆê¸°í™” ë¸”ëŸ­
 	}
 	
 	public BlockTest() {
-		System.out.println("»ı¼ºÀÚ");
+		System.out.println("ìƒì„±ì");
 	}
 	
 	public static void main(String[] args) {
